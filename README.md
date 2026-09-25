@@ -21,6 +21,6 @@ Reset “Kosongkan semua” menyimpan empat koleksi kosong, mempertahankan profi
 
 Penyempurnaan 24–25 September 2026 menambahkan menu Profil/Keluar, sesi per tab melalui sessionStorage dan logout lintas tab, “Ingat email”, unggah/hapus foto profil lokal, penjelasan IDR tanpa konversi, serta larangan akun nonaktif pada transaksi baru. Login tetap demo tanpa akun server. Hasil 19 tes, pemeriksaan build, dan browser: [VERIFIKASI_PENYEMPURNAAN.md](docs/VERIFIKASI_PENYEMPURNAAN.md).
 
-Sumber utama: [PERANCANGAN.md](docs/PERANCANGAN.md). Referensi visual: screenshot Figma di `docs/images`. Pemeriksaan Figma aktif terhalang batas kuota MCP; kesesuaian pixel terhadap file aktif belum disertifikasi.
+Sumber utama: [PERANCANGAN.md](docs/PERANCANGAN.md). Referensi visual: screenshot Figma di `docs/images`.
 
 Satu repository mencakup `docs` dan `front-end`. Aset aplikasi berada di `front-end/public`; folder `assets` lama dipertahankan. Vercel menggunakan Root Directory `front-end`; static export tidak diaktifkan karena route edit dinamis.
