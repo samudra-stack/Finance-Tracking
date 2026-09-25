@@ -1,0 +1,11 @@
+"use client";
+import type { ReactNode } from "react";
+import { ToastProvider } from "@/contexts/ToastContext";
+import { FinanceProvider } from "@/contexts/FinanceContext";
+export function Providers({ children }: { children: ReactNode }) {
+  return (
+    <ToastProvider>
+      <FinanceProvider>{children}</FinanceProvider>
+    </ToastProvider>
+  );
+}
